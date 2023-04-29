@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+.table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.activity{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+
+.activity:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.method {
+  width: 400px;
+  height: 300px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+
+.commercial .commercial {
+  height:200px;
+  width: 400px
+}
+
+.commercialDiv .commercialDivDiv .commercialImage {
+  height: 100px;
+  width: 100px;
+}
+
+.method:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.method .method{
+  flex: 20%;
+  background-color: dodgerblue;
+  display:flex;
+}
+
+.method .description{
+  flex: 95%;
+  display: flex;
+  place-content: center;
+}
+
+.methodObject{
+  width: 400px;
+  height: 300px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+
+.methodObject .method{
+  flex: 20%;
+  background-color: dodgerblue;
+  display:flex;
+  text-align: center;
+}
+
+.methodObject .description{
+  flex: 60%;
+  display: flex;
+  place-content: center;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: dodgerblue;
+  display: flex;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  color: red;
+}

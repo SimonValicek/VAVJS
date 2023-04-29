@@ -1,0 +1,16 @@
+{
+    "development": {
+      "username": "root",
+      "password": "root",
+      "database": "skurvenadbvdockeri",
+      "host": "db",
+      "dialect": "mysql",
+      "pool": {
+        "max": 100,
+        "min": 0,
+        "acquire": 3000000,
+        "idle": 1000000
+      }
+    }
+  }
+  
